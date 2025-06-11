@@ -1,5 +1,5 @@
 import random
-player = input("================================\nRock Paper Scissors\n================================\n\n1) ✊\n2) ✋\n3) ✌️\n4) 🦎\n5) 🖖\nPick a number: ")
+player = input("================================\nRock Paper Scissors Lizard Spock\n================================\n\n1) ✊\n2) ✋\n3) ✌️\n4) 🦎\n5) 🖖\nPick a number: ")
 computer = random.randint(1, 5)
 if player == "1":
     player = "✊"
